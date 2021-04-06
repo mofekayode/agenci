@@ -1,0 +1,42 @@
+.down{
+
+  animation: transitionIn1 3s;
+  position: relative;
+
+  animation-iteration-count:infinite;
+}
+
+@keyframes transitionIn1 {
+ from{
+   transform: translateY(-100px);
+   color:grey;
+
+ }
+  to{
+    transform: translateY(50px);
+    opacity:.2;
+  }
+}
+
+
+@media (max-width: 414px) {
+.down{
+
+  animation: transitionIn1 3s;
+  position: relative;
+
+  animation-iteration-count:infinite;
+}
+
+@keyframes transitionIn1 {
+ from{
+   transform: translateY(-150px);
+   color:grey;
+
+ }
+  to{
+    transform: translateY(-60px);
+    opacity:.2;
+  }
+}
+}
